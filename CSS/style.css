@@ -1,23 +1,22 @@
 nav {
     background-color: #479f76;
-    padding: 10px;
+    color: #9100d1;
     font-family: Poppins, sans-serif;
-    color: #9100D1;
     font-style: bold;
     font-size: 20px;   
-    
-    ul{
-    
-        background-color: #ffffff;
-        color: #9100D1;
-        li {
-            display: inline-block;
-            color: #9100D1;
-        }
-    }
+    text-align: center;
 }
+
+   
+    
+nav li {
+    color: #9100d1;
+    display: flex;
+    justify-content: center;
+}
+
 
 body {
     background-color: #ffffff;
-    tex
+    
 }
