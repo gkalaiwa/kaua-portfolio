@@ -12,7 +12,10 @@
     /* Optional: Add Font Alignment */
     text-align: center;
 }
-   
+ 
+.hero{
+    background-image: url('images/hero_forestimagery.png');
+}
 
 body {
     background-color: #ffffff;
@@ -92,6 +95,7 @@ p {
     color: #ffffff;
     /* Optional: Remove primary button outline */
     border: none;
+    
 }
 
 .btn-primary:hover {
@@ -99,6 +103,8 @@ p {
     background-color: var(--secondary-color);
     color: var(--bs-dark);
 }
+
+
 
 .footer {
     /* Change footer background color */
