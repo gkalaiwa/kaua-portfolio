@@ -1,6 +1,6 @@
 .navbar {
     /* Optional: Make the navbar background transparent */
-    background-color: 479F76;
+    background-color: #479F76;
     /* Optional: Move the navbar is positioned over the hero */
     position: absolute;
     /* Optional: Stretch the navbar across the full width */
@@ -9,11 +9,102 @@
     padding: 1rem;
     /* Optional: Add Font */
     font-family: 'Poppins, sans-serif';
+    /* Optional: Add Font Alignment */
+    text-align: center;
 }
    
-
 
 body {
     background-color: #ffffff;
     
+}
+
+/********************************
+Typography
+**********************************/
+h1 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+    font-size: 72px;
+    font-style: bold;
+    }
+h2 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 500;
+    text-align: center;
+    /* Optional: Adjust font-size of heading 2 */
+    font-size: 2rem;
+    }
+h3{
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+}
+h4,
+h5{
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+    font-size: small;
+    }
+h6 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 500;
+}
+
+p {
+    /* Optional: Adjust font-weight to all paragraphs */
+    font-weight: 400;
+    /* Optional: Adjust font-size of paragraph */
+    font-size: 21px;
+    /* Optional: Add letter spacing to all paragraphs */
+    letter-spacing: -0.05rem;
+}
+
+.display-1 {
+    /* Optional: Customizes display-1 style based on my Figma UI kit */
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 100%;
+    letter-spacing: -0.2rem;
+}
+
+.display-2 {
+    /* Optional: Customizes display-2 style based on my Figma UI kit */
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 100%;
+    letter-spacing: -0.2rem;
+}
+
+.btn-primary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: #C542FF;
+    /* Optional: Change primary button text color to white using variable */
+    color: #ffffff;
+    /* Optional: Remove primary button outline */
+    border: none;
+}
+
+.btn-primary:hover {
+    /* Optional: Change primary button hover state background and text color  */
+    background-color: var(--secondary-color);
+    color: var(--bs-dark);
+}
+
+.footer {
+    /* Change footer background color */
+    background-color: #479F76;
+    /* Optional: Change footer text color to white using variable */
+    color: #000000;
+    /* Optional: Center footer elements */
+    text-align: center;
 }
