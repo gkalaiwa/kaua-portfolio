@@ -45,6 +45,16 @@ body {
     background-color: #e099ff; 
 }
 
+.card{
+    background-color: #198754;
+    border: none;
+    color:#000000;
+    margin-top: 10px; 
+    
+} 
+.projects {
+    padding-bottom: 48px;
+}
 /********************************
 Typography
 **********************************/
