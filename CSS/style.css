@@ -33,11 +33,16 @@
 }
 .hero{
     background-image: url('images/hero_forestimagery.png');
+    background-color: white;
+    
+    
+}
+.hero div{
+    padding-bottom: 48px;
 }
 
 body {
-    background-color: #ffffff;
-    
+    background-color: #e099ff; 
 }
 
 /********************************
