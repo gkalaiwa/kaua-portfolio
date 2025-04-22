@@ -43,18 +43,36 @@
 
 body {
     background-color: #e099ff; 
+    
 }
 
 .card{
     background-color: #198754;
     border: none;
     color:#000000;
-    margin-top: 10px; 
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 } 
 .projects {
     padding-bottom: 48px;
 }
+.bio {
+   padding-bottom: 48px;
+   text-align: center;
+   color: #000000;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.bio h2 {
+    
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /********************************
 Typography
 **********************************/
@@ -121,13 +139,23 @@ p {
     letter-spacing: -0.2rem;
 }
 
-.btn-primary {
+.col-xl-6:last-child {
+    /* Optional: Center the last column in the row */
+    text-align: center;
+    /* Optional: Add margin to the last column in the row */
+    margin-top: 20px;
+    padding-bottom: 48px;
+}
+
+.btn { 
     /* Optional: Change primary button background color to primary color */
     background-color: #C542FF;
     /* Optional: Change primary button text color to white using variable */
     color: #ffffff;
     /* Optional: Remove primary button outline */
     border: none;
+    text-align: center;
+    display: inline-block;
     
 }
 
@@ -137,6 +165,11 @@ p {
     color: var(--bs-dark);
 }
 
+@media (max-width: 768px) {
+    #bio .col-xl-6:last-child {
+      text-align: center;
+    }
+  }
 
 
 .footer {
