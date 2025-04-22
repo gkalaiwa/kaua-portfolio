@@ -59,6 +59,8 @@ body {
     padding-bottom: 48px;
 }
 .bio {
+   
+   margin-top: 48px;
    padding-bottom: 48px;
    text-align: center;
    color: #000000;
@@ -67,8 +69,8 @@ body {
 }
 .bio h2 {
     
-    font-size: 2rem;
-    font-weight: 700;
+    color: #000000;
+    font-style: bold;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -77,23 +79,30 @@ body {
 Typography
 **********************************/
 h1 {
+    color: #000000;
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 72px;
     font-style: bold;
     }
 h2 {
+    color: #000000;
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
     font-weight: 500;
     text-align: center;
     /* Optional: Adjust font-size of heading 2 */
     font-size: 2rem;
     }
 h3{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
@@ -101,6 +110,8 @@ h3{
 }
 h4,
 h5{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
@@ -108,6 +119,8 @@ h5{
     font-size: small;
     }
 h6 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
@@ -115,6 +128,8 @@ h6 {
 }
 
 p {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
     /* Optional: Adjust font-weight to all paragraphs */
     font-weight: 400;
     /* Optional: Adjust font-size of paragraph */
