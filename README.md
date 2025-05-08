@@ -1,2 +1,3 @@
 #kauasportfolio
-<h1 href="index.html" class="btn btn-primary">click here<h1>
+
+[View it on GitHub Pages](https://gkalaiwa.github.io/kaua-portfolio/)
